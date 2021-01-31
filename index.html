@@ -59,7 +59,7 @@
           <img id="img2" onclick="img2()" src="palmeiras2.jpg" class="miniimg mt-2 mr-2 mb-2" alt="">
           <img id="img3" onclick="img3()" src="palmeiras3.jpg" class="miniimg mt-2 mr-2 mb-2" alt="">
           <img id="img4" onclick="img4()"src="palmeiras4.jpg " class="miniimg mt-2 mb-2" alt="">
-          <img id="img4" onclick="img4()"src="palmeiras5.jpg " class="miniimg mt-2 mb-2" alt="">
+          <img id="img5" onclick="img5()"src="palmeiras5.jpg " class="miniimg mt-2 mb-2 ml-2" alt="">
  </div>
 
  
@@ -517,6 +517,16 @@
 
 
  }
+ function img5(){
+   
+   var name=document.getElementById("img5").src
+   
+   var atual=document.getElementById("imgp").src
+ document.getElementById("img5").src=atual
+ document.getElementById("imgp").src=name
+
+
+ }
 function link(){
   
   var link= document.getElementById("link")
@@ -526,7 +536,7 @@ function link(){
     Swal.fire({
     
     icon: 'warning',
-    title: 'Selecione um Tamanho',
+    title: 'Selecione o Tamanho e a Customização',
     showConfirmButton: false,
     timer: 1500
   })
