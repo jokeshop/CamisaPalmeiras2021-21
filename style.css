@@ -102,7 +102,7 @@ html,body { overflow-x: hidden; }
     font-size: 20px;
     -webkit-box-shadow: -10px 12px 7px rgb(247, 228, 224);
     -moz-box-shadow:    -10px 12px 7px rgb(247, 228, 224);
-    box-shadow:         -10px 12px 7px red;
+    box-shadow:         -10px 12px 7px #02b502;
     
   }
   .imgstilo{
